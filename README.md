@@ -6,7 +6,7 @@ git init
 
 # Clone Repository:
 
-git clone https://github.com/ankitMishra-95/Website-Tracker.git
+git clone https://github.com/ankitMishra-95/Website-Tracker.git <br>
 git remote add https://github.com/ankitMishra-95/Website-Tracker.git
 
 # Intall Dependencies
