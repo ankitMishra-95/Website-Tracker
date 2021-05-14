@@ -58,7 +58,7 @@ nav > p {
   width: 100%;
   border: 1px solid var(--grey-light);
   border-radius: 6px;
-  padding: 25px 20px;
+  padding: 22px 20px;
   font: normal normal normal 1rem/1.187rem Work Sans;
   color: var(--black);
 }
@@ -223,10 +223,13 @@ footer p {
   article .right span,
   .right button,
   footer h6,
-  footer p,
-  .searchBar input {
+  footer p {
     font-size: 0.8rem;
     line-height: 1rem;
+  }
+  .searchBar input {
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
   article .right span {
     width: 215px;
@@ -285,11 +288,11 @@ footer p {
   }
   article {
     flex-direction: column;
-    background-color: #efefef8c;
+    background-color: #eaeaea54;
     border: 0;
     border-radius: 6px;
     padding: 25px;
-    margin: 0.7rem 0 0rem 0;
+    margin: 1rem 0 0rem 0;
   }
   article .right {
     flex-direction: column;
@@ -306,7 +309,7 @@ footer p {
   .right button,
   footer h6,
   footer p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1rem;
   }
   .searchBar input {
@@ -335,7 +338,7 @@ footer p {
     margin-bottom: 0.2rem;
   }
   article .left a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   article .left {
     padding: 0.5rem 0;

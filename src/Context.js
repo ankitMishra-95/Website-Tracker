@@ -27,6 +27,7 @@ const AppProvider = ({ children }) => {
       ];
       localStorage.setItem("storeForUrl", JSON.stringify(urlData));
       setIsLoading(true);
+      setuserInput("");
       showData();
     } else {
       setuserInputCorrect(true);
@@ -64,11 +65,11 @@ const AppProvider = ({ children }) => {
   let cTime = new Date().getTime();
   let urls1 = [
     {
-      url: "https://medium.com/@unakravets/the-sad-state-of-entitled-web-developers-e4f314764dd",
+      url: "https://www.ushacook.com/en/",
       time: cTime,
     },
     {
-      url: "http://frontendnewsletter.com/issues/1#start",
+      url: "https://baragaonweaves.com/",
       time: cTime,
     },
     {
@@ -76,11 +77,7 @@ const AppProvider = ({ children }) => {
       time: cTime,
     },
     {
-      url: "https://groups.google.com/forum/#!topic/v8-users/PInzACvS5I4",
-      time: cTime,
-    },
-    {
-      url: "https://www.youtube.com/watch?v=9kJVYpOqcVU",
+      url: "https://www.merinolaminates.com/en/",
       time: cTime,
     },
   ];

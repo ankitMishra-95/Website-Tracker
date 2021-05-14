@@ -1,6 +1,8 @@
-Website Tracker
+# Live Website Tracker
 
-# Intialize git:
+Following steps required to run and deploy the application.
+
+# Initialize git:
 
 git init
 
@@ -9,10 +11,10 @@ git init
 git clone https://github.com/ankitMishra-95/Website-Tracker.git <br>
 git remote add https://github.com/ankitMishra-95/Website-Tracker.git
 
-# Intall Dependencies
+# Install Dependencies
 
 npm install
 
-# Start Project
+# Start Development Server
 
 npm start
