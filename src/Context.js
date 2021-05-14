@@ -133,16 +133,20 @@ const AppProvider = ({ children }) => {
 
     let minutesDifference = Math.floor(difference / 1000 / 60);
     difference -= minutesDifference * 1000 * 60;
-    if (hoursDifference >= 24)
+    if (hoursDifference >= 24) {
       LastChecked =
         daysDifference <= 9
           ? daysDifference + " Day ago"
           : daysDifference + " Days ago";
-    if (minutesDifference >= 60)
+      return LastChecked;
+    }
+    if (minutesDifference >= 60) {
       LastChecked =
         hoursDifference <= 9
           ? hoursDifference + " Hour ago"
           : hoursDifference + " Hours ago";
+      return LastChecked;
+    }
     LastChecked =
       minutesDifference <= 9
         ? minutesDifference + " Minute ago"
